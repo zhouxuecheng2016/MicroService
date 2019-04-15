@@ -9,9 +9,16 @@
     <module>MicroMonitor</module>
     <module>MicroChain</module>
     <module>MicroConfigCenter</module>
+      <module>Micro-Cache</module>
   </modules>
   <name>MicroService Maven Mojo</name>
   <url>http://maven.apache.org</url>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>1.5.17.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
